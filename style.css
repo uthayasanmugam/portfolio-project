@@ -211,7 +211,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./imges/backround.webp);
+	background-image: url(./imges/webbackround.jpeg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -381,6 +381,17 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
+#projects .project-item-Live {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 120%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
